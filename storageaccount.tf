@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "ajiri24" {
 }
 
 resource "azurerm_storage_account" "example" {
-  name                     = "storageaccountname"
+  name                     = "ajirijames"
   resource_group_name      = azurerm_resource_group.example.name
   location                 = azurerm_resource_group.example.location
   account_tier             = "Standard"

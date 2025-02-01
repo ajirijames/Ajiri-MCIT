@@ -5,8 +5,8 @@ resource "azurerm_resource_group" "ajiri24" {
 
 resource "azurerm_storage_account" "example" {
   name                     = "ajirijames"
-  resource_group_name      = azurerm_resource_group.example.name
-  location                 = azurerm_resource_group.example.location
+  resource_group_name      = azurerm_resource_group.ajirimcit24.name
+  location                 = azurerm_resource_group.canadacentral.location
   account_tier             = "Standard"
   account_replication_type = "GRS"
 
